@@ -1,4 +1,4 @@
-module bazil.org/fuse
+module github.com/KyleSanderson/fuse
 
 go 1.13
 
