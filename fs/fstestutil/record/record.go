@@ -1,4 +1,4 @@
-package record // import "bazil.org/fuse/fs/fstestutil/record"
+package record // import "github.com/KyleSanderson/fuse/fs/fstestutil/record"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
+	"github.com/KyleSanderson/fuse"
+	"github.com/KyleSanderson/fuse/fs"
 )
 
 // Writes gathers data from FUSE Write calls.

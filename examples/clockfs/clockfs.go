@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"time"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/fs"
-	_ "bazil.org/fuse/fs/fstestutil"
-	"bazil.org/fuse/fuseutil"
+	"github.com/KyleSanderson/fuse"
+	"github.com/KyleSanderson/fuse/fs"
+	_ "github.com/KyleSanderson/fuse/fs/fstestutil"
+	"github.com/KyleSanderson/fuse/fuseutil"
 )
 
 func usage() {

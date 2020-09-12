@@ -16,8 +16,8 @@ import (
 	"strings"
 	"syscall"
 
-	"bazil.org/fuse"
-	"bazil.org/fuse/cmd/fuse-abort/internal/mountinfo"
+	"github.com/KyleSanderson/fuse"
+	"github.com/KyleSanderson/fuse/cmd/fuse-abort/internal/mountinfo"
 )
 
 // When developing a FUSE filesystem, it's pretty common to end up
